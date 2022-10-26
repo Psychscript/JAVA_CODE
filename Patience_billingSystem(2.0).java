@@ -65,6 +65,6 @@ public class javaTest1 {
         System.out.printf("\nTax           : %,.2f\n",tax);
         //FORMULA
         hospital_bill = drs_fee+lab_fees+other_charges+room_charges+tax;
-        System.out.printf("\nHospital bill : %,.2f\n\n2",hospital_bill);
+        System.out.printf("\nHospital bill : %,.2f\n\n",hospital_bill);
     }
 }
