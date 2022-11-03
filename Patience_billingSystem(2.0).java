@@ -14,7 +14,7 @@ public class javaTest1 {
         double confine_days,rrt_perday;
 
         //Create an object of scanner class
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         /*INPUT & OUTPUT STATEMENT*/
         System.out.println("\n**** CLIENT'S PAYMENTS ****\n");
         System.out.println("\nHow many days confine :");
@@ -45,7 +45,7 @@ public class javaTest1 {
         dressing_liquid= input.nextDouble();
         System.out.println("Medicine fee          :");
         medicine= input.nextDouble();
-
+        input.close();
         //FINAL RESULT OUTPUT
         System.out.println("\n\n**** CLIENT'S BILL ****\n");
         //FORMULA
